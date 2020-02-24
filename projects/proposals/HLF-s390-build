@@ -1,0 +1,79 @@
+* Name of project (must be unique within OMP)
+ FabricZ (not official)
+ 
+* Project description (what it does, why it is valuable, origin and history)
+
+Create a sustainable open source support structure for Hyperledger Fabric v2.0 and beyond's new code deliveries, so that restore confidence in s390x as a viable, strong enterprise platform.
+The current target version would need to support followings:
+
+CouchDB 2.3 image doesn't exist for s390x
+https://jira.hyperledger.org/browse/FAB-15429
+https://github.com/apache/couchdb-docker/issues/67
+
+Prebuilt grpc-node binaries don't exist for s390x
+https://github.com/grpc/grpc-node/issues/296
+
+The community has worked around the 2 above by building their own forks of binaries.
+
+Java chaincode image won't build for s390x
+https://jira.hyperledger.org/browse/FAB-12108
+https://jira.hyperledger.org/browse/FAB-13629: no 8-jdk-alpine image for the s390x architecture
+https://github.com/protocolbuffers/protobuf/issues/6625: s390x protobuf-protoc fails 
+
+Java chaincode is still relatively new in the fabric platform. 
+
+Inconsistent network performance problems 
+https://jira.hyperledger.org/browse/FAB-12927: Connection reset failure on cloning fabric repository on s390x platform
+https://jira.hyperledger.org/browse/FAB-12106: fab-ca sample is failing on s390x build
+https://jira.hyperledger.org/browse-FAB-12822: Unit-test is failing "intermittently" on release-1.3 - s390x
+
+
+
+* Statement on alignment with OMP charter mission
+
+* Sponsor from TAC (sponsor helps mentor projects)
+   
+* Preferred maturity level (see project stages)
+  Incubation stage
+
+
+* License and contribution guidelines (refer to the OMP guidelines)
+
+* Source control (GitHub by default)
+
+Github
+
+* External dependencies (including licenses)
+
+https://github.com/hyperledger/fabric
+
+
+* Initial committers (how long working on project)
+
+* Infrastructure requests (CI / OMP Cluster)
+ 
+ Linux on Z, CI/CD, Azure build pipeline
+
+* Communication channels (slack, irc, mailing lists)
+ 
+ Slack, mailing list
+ 
+* Issue tracker (GitHub by default)
+  
+ Github
+
+* Website
+ 
+ Don't exist yet
+ 
+* Release methodology and mechanics
+ 
+ To be discussed
+
+* Social media accounts
+  
+ Don't exist yet
+  
+* Community size and any existing sponsorship
+
+ Need to recruit
