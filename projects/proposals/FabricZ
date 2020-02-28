@@ -30,14 +30,20 @@ https://jira.hyperledger.org/browse-FAB-12822: Unit-test is failing "intermitten
 
 
 * Statement on alignment with OMP charter mission
-
+ intent of this project is to open source projects on open mainframe proejct community
+ 
 * Sponsor from TAC (sponsor helps mentor projects)
-   
+ Enyu Wang( Alex to contact)
+ Bob Dahlberg (Alex to contact)
+ Mark Post( Alex to send email)
+ 
 * Preferred maturity level (see project stages)
   Incubation stage
 
 
 * License and contribution guidelines (refer to the OMP guidelines)
+ existing HLF T&Cs
+ 
 
 * Source control (GitHub by default)
 
@@ -45,18 +51,30 @@ Github
 
 * External dependencies (including licenses)
 
-https://github.com/hyperledger/fabric
+Q) Do we want to fork and maintain or push to upstream?
 
+https://github.com/hyperledger/fabric
+ - reach out to HLF team to understand the past/current standing of this approach 
+ - JM will reach out to HLF project team in LF
+ - Henry will discuss within IBM team
 
 * Initial committers (how long working on project)
+ -Alex Kim
+ -Henry Welborn
+ -Len Satalucia
 
 * Infrastructure requests (CI / OMP Cluster)
  
  Linux on Z, CI/CD, Azure build pipeline
-
+ 
+ (build pipeline will be depend on how discussion w/ main project , relationships)
+  HLF2.0 dropped Jenkins -> Azure pipeline (how to link non-Azure platform to be target platform? agent based?)
+  Perhaps some experiment on Azure pipeline before commiting project
+  
 * Communication channels (slack, irc, mailing lists)
  
  Slack, mailing list
+ #
  
 * Issue tracker (GitHub by default)
   
